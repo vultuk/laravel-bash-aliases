@@ -22,6 +22,7 @@ alias l.m.r='php artisan migrate:reset'
 alias l.db.s='php artisan db:seed'
 #reset db and remigrate and reseed
 alias l.rdb='l.m.r && l.m && l.db.s'
+alias l.t='php artisan tinker'
 
 #PHP Spec (ps.)
 alias ps.='vendor/bin/phpspec'
