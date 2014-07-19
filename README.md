@@ -67,9 +67,9 @@ alias serverAcme='ssh root@acme.org'
 #one time process creating a single letter directory
 mkdir s
 #symlink your directory to the folder s
-ln -s /home/projects/freelance/client1/abcdproject /s/abcd
+ln -s /home/username/projects/freelance/client1/abcdproject /home/username/s/abcd
 #add bash alias entry
 alias abcd='cd ~/s/abcd'
-#now you can type abcd from any where and reach the folder
+#now you can type abcd from any where and reach the folder and terminal will only have s/abcd
 </pre>
 
