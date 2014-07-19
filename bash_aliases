@@ -12,6 +12,7 @@ alias g.p='git push'
 alias g.p.a='git push --all'
 alias g.b='git branch'
 alias g.b.n='git checkout -b'
+alias g.u='git pull'
 
 # Laravel (l.)
 alias l.='php artisan'
