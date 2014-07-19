@@ -16,7 +16,7 @@ ln -s laravel-bash-aliases/bash_aliases .bash_aliases
 source .bash_aliases
 </pre>
 
-** List of Aliases **
+**List of Aliases**
 <pre>
 # Bash Editing (ba.)
 ba.e   ->  gedit ~/.bash_aliases   Quickly edit bash alias file
