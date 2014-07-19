@@ -52,3 +52,24 @@ b.     ->  vendor/bin/behat
 b.r    ->  vendor/bin/behat run
 
 </pre>
+
+**TIPS**
+
+1 - Connect to the server easily by placing a alias for ssh, and using key based authentication
+
+<pre>
+alias serverAcme='ssh root@acme.org'
+</pre>
+
+2 - Easy folder changes placing alias for the folder, additionally create a symlink to a on lettered directory in home folder so that location wont take much space in terminal window
+
+<pre>
+#one time process creating a single letter directory
+mkdir s
+#symlink your directory to the folder s
+ln -s /home/projects/freelance/client1/abcdproject /s/abcd
+#add bash alias entry
+alias abcd='cd ~/s/abcd'
+#now you can type abcd from any where and reach the folder
+</pre>
+
